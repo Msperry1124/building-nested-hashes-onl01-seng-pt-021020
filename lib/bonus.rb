@@ -1,7 +1,7 @@
 def bonus
-  do epic_tragedy[:montague][:hero,:status] = "dead"
-  do epic_tragedy[:capulet][:heroine,:status] = "dead"
-  puts epic_tragedy
+  expect(bonus[:montague][:hero][:status]).to eq("dead")
+  expect(bonus[:capulet][:heroine][:status]).to eq("dead")	    
+
   epic_tragedy = {
    :montague => {
       :patriarch => {name: "Lord Montague", age: "53"},
