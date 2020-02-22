@@ -1,7 +1,5 @@
 def bonus
-  epic_tragedy[:montague][:hero][:status] = ["alive" => "dead"]
-epic_tragedy[:capulet][:heroine][:status] = ["alive" => "dead"]
-puts epic_tragedy = {
+   epic_tragedy = {
    :montague => {
       :patriarch => {name: "Lord Montague", age: "53"},
       :matriarch => {name: "Lady Montague", age: "54"},
