@@ -1,3 +1,7 @@
 def first_challenge
-   epic_tragedy = {}
+  hash.each do |person, data|
+ data.each do |attribute, value|
+   puts "#{attribute}: #{value}"
+
+end
 end
