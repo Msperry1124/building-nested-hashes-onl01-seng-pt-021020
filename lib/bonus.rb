@@ -1,5 +1,5 @@
 def bonus
-  epic_tragedy[:montague][:hero][:name][:status] = "dead"
+  epic_tragedy[:montague][:hero][:name][:status] => "dead"
 
 puts epic_tragedy
   epic_tragedy = {
